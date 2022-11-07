@@ -1,0 +1,205 @@
+*{
+    margin: 0 auto;
+} 
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+p {
+  padding: 13px;
+}
+
+h2 {
+   padding: 50px;
+   font-size: 50px;
+
+}
+
+h3 {
+    font-size: 25px;
+    padding: 10px;
+}
+
+img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+
+}
+
+.titulo {
+    background-color:rgba(0, 0, 85, 0.836);
+    font-style: italic;
+    font-size: 25px;
+    padding: 20;
+    justify-content: space-between;
+    display: flex;
+    text-align: center;
+}
+
+span {
+    color: yellow;
+
+}
+
+.link {
+    
+    margin: 4px;
+    width: 200px;
+    height: auto;
+    padding: 5px;
+    justify-content: space-between;
+    display: inline-block;
+    background-color: rgba(255,255,255,0.2);
+    list-style: none
+    
+}
+
+.busqueda {
+    padding: 23px;
+    margin-left: 125px;
+}
+
+.link a {
+    text-decoration: none;
+    color: black;
+    font-size: 23px;
+}
+
+.caja1 {
+    width: 400px;
+    display: inline-block;
+    padding-left: 30px;
+    color: white;
+    
+}
+
+.caja2 {
+    width: 500px;
+    height: 525px;
+    align-items: center;
+}
+
+.solar{
+   margin-left: 80px;
+   margin-right: 100px;
+   font-size: 20px;
+   text-align: left;
+   width: 600px;
+   height: 700px;
+   border-top-left-radius: 20px;
+   border-top-right-radius: 20px;
+   font-size: 20px;
+   text-align: center;
+   align-items: center;
+}
+
+
+.tarjetas {
+    justify-content: space-between;
+    display: flex;
+    padding: 60px;
+    
+}
+
+
+.lol {
+    width: 350px;
+    height: 500px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    font-size: 20px;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.among {
+    width: 350px;
+    height: 500px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    font-size: 20px;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.braw {
+    width: 350px;
+    height: 500px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    font-size: 20px;
+    text-align: center;
+    justify-content: space-between;
+}
+
+
+.final {
+    background-color:rgba(0, 0, 85, 0.836);
+    padding: 60px;
+    color: white;
+    display: flex;
+}
+
+.suscribite {
+font-size: 20px;
+
+}
+
+input {
+    display: flex;
+    height: 30px;
+    width: 400px;
+}
+
+button {
+    height: 30px;
+    width: 70px;
+    font-size: 15px;
+}
+
+
+.boton {
+    background-color: turquoise;
+    height: 35px;
+    width: 250px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    font-size: 15px;
+    text-align:center;
+}
+
+.boton a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.solar:hover {
+    transform: translate(0, 7px);
+    box-shadow: 2px 16px 5px rgba(0, 0, 0, 0.3);
+   transition: all 300ms;
+}
+
+
+.lol:hover {
+    transform: translate(0, 7px);
+    box-shadow: 2px 16px 5px rgba(0, 0, 0, 0.3);
+   transition: all 300ms;
+}
+
+.among:hover {
+    transform: translate(0, 7px);
+    box-shadow: 2px 16px 5px rgba(0, 0, 0, 0.3);
+   transition: all 300ms;
+}
+
+.braw:hover {
+    transform: translate(0, 7px);
+    box-shadow: 2px 16px 5px rgba(0, 0, 0, 0.3);
+   transition: all 300ms;
+}
+
